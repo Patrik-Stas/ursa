@@ -525,13 +525,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564"
 
 [[package]]
-name = "ursa"
-version = "0.5.0"
-dependencies = [
- "ursa_sharing",
-]
-
-[[package]]
 name = "ursa_accumulators"
 version = "0.5.0"
 
@@ -570,6 +563,13 @@ version = "0.5.0"
 [[package]]
 name = "ursa_signatures"
 version = "0.5.0"
+
+[[package]]
+name = "ursaroot"
+version = "0.5.0"
+dependencies = [
+ "ursa_sharing",
+]
 
 [[package]]
 name = "vcpkg"
